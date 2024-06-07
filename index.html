@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="prompt-box">
+        <form id="myForm" method="POST" a`ction="/">
+          <h2>Hey</h2>
+
+          <label for="tutorial">Tutorial Number</label>
+          <input type="number" placeholder="Enter Tutorial Number" id="tutorial">
+  
+          <label for="questions">No. of Questions</label>
+          <input type="number" placeholder="No. of Questions" id="questions"> 
+          
+          <label for="path">Save As</label>
+          <input type="text" placeholder="Enter Path to Save" id="path">
+
+          <button onclick="submit"> Let's Go!</button>
+        </form>
+      </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html> 
